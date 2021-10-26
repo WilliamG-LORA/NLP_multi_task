@@ -7,14 +7,14 @@ cuda 11.0，pytorch 1.8.0
 pip install deepspeed==0.3.15
 
 # 任务
-## 1. zero-shot classication
+## zero-shot classication
 dataset: tnews，data/tnews_RawData_example.json  
 train: scripts/zero-shot-tnews_small.sh  
-## 2. fill-in-the-blank
+## fill-in-the-blank
 dataset: chid, data/chid_RawData_example.json  
 dataprocess: preprocess_chid_finetune.py  
 train: scripts/chid/finetune_chid_small.sh  
-## 3. dialog
+## dialog
 dataset: STC, data/STC_RawData_example.json  
 dataprocess: preprocess_stc_finetune.py  
 train: finetune_lm_small.sh  

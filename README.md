@@ -8,14 +8,14 @@ pip install deepspeed==0.3.15
 
 # 任务
 ## 1. zero-shot classication
-dataset: tnews  
+dataset: tnews，data/tnews_RawData_example.json  
 train: scripts/zero-shot-tnews_small.sh  
 ## 2. fill-in-the-blank
-dataset: chid  
+dataset: chid, data/chid_RawData_example.json  
 dataprocess: preprocess_chid_finetune.py  
 train: scripts/chid/finetune_chid_small.sh  
 ## 3. dialog
-dataset: STC  
+dataset: STC, data/STC_RawData_example.json  
 dataprocess: preprocess_stc_finetune.py  
 train: finetune_lm_small.sh  
 

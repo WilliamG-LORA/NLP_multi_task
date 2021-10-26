@@ -1,9 +1,9 @@
 # 环境：
-## cuda
+1. cuda
 cuda 11.0，pytorch 1.8.0
-## apex
+2. apex
 应该用cuda 10.2，cuda 11.0 不兼容，参考[这里](https://zhuanlan.zhihu.com/p/80386137)修改apex，成功编译
-## deepspeed
+3. deepspeed
 pip install deepspeed==0.3.15
 
 # 任务

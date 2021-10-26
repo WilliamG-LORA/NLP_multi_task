@@ -20,5 +20,5 @@ dataprocess: preprocess_stc_finetune.py
 train: finetune_lm_small.sh  
 
 # 待改进：
-1. 预训练模型加载不成功
+1.  fill-in-the-blank和dialog任务的预训练模型加载不成功
 2. 大模型显存占用过大
